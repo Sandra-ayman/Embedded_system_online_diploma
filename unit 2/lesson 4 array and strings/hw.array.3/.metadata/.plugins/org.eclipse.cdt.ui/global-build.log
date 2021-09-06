@@ -1,0 +1,51 @@
+19:51:41 **** Rebuild of configuration Debug for project hw3.3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o hw3.3.o "..\\hw3.3.c" 
+..\hw3.3.c: In function 'main':
+..\hw3.3.c:11:16: warning: variable 'b' set but not used [-Wunused-but-set-variable]
+  int a[20][20],b[20][20],i=0,j=0,x=0,y=0;
+                ^
+gcc -o hw3.3.exe hw3.3.o 
+19:52:18 **** Incremental Build of configuration Debug for project hw3.3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o hw3.3.o "..\\hw3.3.c" 
+gcc -o hw3.3.exe hw3.3.o 
+19:53:03 **** Incremental Build of configuration Debug for project hw3.3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o hw3.3.o "..\\hw3.3.c" 
+gcc -o hw3.3.exe hw3.3.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file hw3.3.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+19:53:53 **** Incremental Build of configuration Debug for project hw3.3 ****
+Info: Internal Builder is used for build
+gcc -o hw3.3.exe hw3.3.o 
+Info: Nothing to build for hw3.3
+Info: Nothing to build for hw3.3
+19:55:23 **** Incremental Build of configuration Debug for project hw3.3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o hw3.3.o "..\\hw3.3.c" 
+gcc -o hw3.3.exe hw3.3.o 
+19:59:07 **** Incremental Build of configuration Debug for project hw3.3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o hw3.3.o "..\\hw3.3.c" 
+gcc -o hw3.3.exe hw3.3.o 
+19:59:52 **** Incremental Build of configuration Debug for project hw3.3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o hw3.3.o "..\\hw3.3.c" 
+gcc -o hw3.3.exe hw3.3.o 
+20:05:53 **** Incremental Build of configuration Debug for project hw3.3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o hw3.3.o "..\\hw3.3.c" 
+..\hw3.3.c: In function 'main':
+..\hw3.3.c:27:9: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+  a[x][y]=NULL;
+         ^
+..\hw3.3.c:38:9: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+  b[x][y]=NULL;
+         ^
+gcc -o hw3.3.exe hw3.3.o 
+20:08:45 **** Incremental Build of configuration Debug for project hw3.3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o hw3.3.o "..\\hw3.3.c" 
+gcc -o hw3.3.exe hw3.3.o 
+Info: Nothing to build for hw3.3

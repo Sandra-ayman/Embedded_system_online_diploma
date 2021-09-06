@@ -1,0 +1,28 @@
+11:14:51 **** Rebuild of configuration Debug for project hw3.8 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o hw3.8.o "..\\hw3.8.c" 
+gcc -o hw3.8.exe hw3.8.o 
+Info: Nothing to build for hw3.8
+11:18:29 **** Incremental Build of configuration Debug for project hw3.8 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o hw3.8.o "..\\hw3.8.c" 
+..\hw3.8.c: In function 'main':
+..\hw3.8.c:21:12: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'int' [-Wformat=]
+   printf("%s",a[i]);
+            ^
+gcc -o hw3.8.exe hw3.8.o 
+11:18:59 **** Incremental Build of configuration Debug for project hw3.8 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o hw3.8.o "..\\hw3.8.c" 
+gcc -o hw3.8.exe hw3.8.o 
+Info: Nothing to build for hw3.8
+11:19:39 **** Incremental Build of configuration Debug for project hw3.8 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o hw3.8.o "..\\hw3.8.c" 
+gcc -o hw3.8.exe hw3.8.o 
+Info: Nothing to build for hw3.8
+11:20:18 **** Incremental Build of configuration Debug for project hw3.8 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o hw3.8.o "..\\hw3.8.c" 
+gcc -o hw3.8.exe hw3.8.o 
+Info: Nothing to build for hw3.8

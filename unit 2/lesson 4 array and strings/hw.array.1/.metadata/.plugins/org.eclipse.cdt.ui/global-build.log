@@ -1,0 +1,36 @@
+14:44:03 **** Rebuild of configuration Debug for project hw3.1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o hw3.1.o "..\\hw3.1.c" 
+gcc -o hw3.1.exe hw3.1.o 
+Info: Nothing to build for hw3.1
+14:45:20 **** Incremental Build of configuration Debug for project hw3.1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o hw3.1.o "..\\hw3.1.c" 
+gcc -o hw3.1.exe hw3.1.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file hw3.1.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+14:45:34 **** Incremental Build of configuration Debug for project hw3.1 ****
+Info: Internal Builder is used for build
+gcc -o hw3.1.exe hw3.1.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file hw3.1.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+14:45:39 **** Incremental Build of configuration Debug for project hw3.1 ****
+Info: Internal Builder is used for build
+gcc -o hw3.1.exe hw3.1.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file hw3.1.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+14:50:11 **** Incremental Build of configuration Debug for project hw3.1 ****
+Info: Internal Builder is used for build
+gcc -o hw3.1.exe hw3.1.o 
+Info: Nothing to build for hw3.1
+14:52:06 **** Incremental Build of configuration Debug for project hw3.1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o hw3.1.o "..\\hw3.1.c" 
+gcc -o hw3.1.exe hw3.1.o 
+14:53:35 **** Incremental Build of configuration Debug for project hw3.1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o hw3.1.o "..\\hw3.1.c" 
+gcc -o hw3.1.exe hw3.1.o 
+Info: Nothing to build for hw3.1
+Info: Nothing to build for hw3.1
+Info: Nothing to build for hw3.1
