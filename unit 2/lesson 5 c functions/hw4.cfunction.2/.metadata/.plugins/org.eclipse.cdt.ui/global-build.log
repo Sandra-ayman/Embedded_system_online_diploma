@@ -1,0 +1,44 @@
+18:09:30 **** Rebuild of configuration Debug for project hw4.2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o hw4.2.o "..\\hw4.2.c" 
+..\hw4.2.c: In function 'fac':
+..\hw4.2.c:19:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+gcc -o hw4.2.exe hw4.2.o 
+Info: Nothing to build for hw4.2
+18:10:50 **** Incremental Build of configuration Debug for project hw4.2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o hw4.2.o "..\\hw4.2.c" 
+..\hw4.2.c: In function 'fac':
+..\hw4.2.c:22:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+gcc -o hw4.2.exe hw4.2.o 
+Info: Nothing to build for hw4.2
+18:12:28 **** Incremental Build of configuration Debug for project hw4.2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o hw4.2.o "..\\hw4.2.c" 
+..\hw4.2.c: In function 'fac':
+..\hw4.2.c:23:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+gcc -o hw4.2.exe hw4.2.o 
+Info: Nothing to build for hw4.2
+18:13:41 **** Incremental Build of configuration Debug for project hw4.2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o hw4.2.o "..\\hw4.2.c" 
+..\hw4.2.c: In function 'fac':
+..\hw4.2.c:22:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+gcc -o hw4.2.exe hw4.2.o 
+18:14:10 **** Incremental Build of configuration Debug for project hw4.2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o hw4.2.o "..\\hw4.2.c" 
+..\hw4.2.c: In function 'fac':
+..\hw4.2.c:19:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+gcc -o hw4.2.exe hw4.2.o 
+Info: Nothing to build for hw4.2
