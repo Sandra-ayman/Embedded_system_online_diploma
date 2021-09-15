@@ -1,0 +1,35 @@
+/*
+ * hw4.1.c
+ *
+ *  Created on: Sep 15, 2021
+ *      Author: sandra
+ */
+//homework 4 example 1
+#include<stdio.h>
+int prime(int x)
+{
+	int i;
+	for(i=x-1;i>0;i--)
+	{
+		if(x%i!=0)
+		{
+			return x;
+		}
+	}
+}
+int main()
+{
+	int x,y,i;
+	printf("Enter two numbers(intervals): ");
+	fflush(stdin);
+	fflush(stdout);
+	scanf("%d %d",&x,&y);
+	printf("Prime numbers between %d and %d are:",x,y);
+	for(i=x+1;i<y;i++)
+	{
+		printf("%d ",prime(i));
+	}
+	return 0;
+}
+
+
