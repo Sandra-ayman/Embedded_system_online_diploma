@@ -1,0 +1,15 @@
+01:22:02 **** Rebuild of configuration Debug for project hw5.2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o hw5.2.o "..\\hw5.2.c" 
+gcc -o hw5.2.exe hw5.2.o 
+Info: Nothing to build for hw5.2
+01:22:55 **** Incremental Build of configuration Debug for project hw5.2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o hw5.2.o "..\\hw5.2.c" 
+gcc -o hw5.2.exe hw5.2.o 
+Info: Nothing to build for hw5.2
+01:23:30 **** Incremental Build of configuration Debug for project hw5.2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o hw5.2.o "..\\hw5.2.c" 
+gcc -o hw5.2.exe hw5.2.o 
+Info: Nothing to build for hw5.2
