@@ -1,0 +1,31 @@
+22:42:10 **** Rebuild of configuration Debug for project hw5.1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o hw5.1.o "..\\hw5.1.c" 
+..\hw5.1.c: In function 'print_st_info':
+..\hw5.1.c:16:18: warning: format '%c' expects argument of type 'int', but argument 2 has type 'char *' [-Wformat=]
+  printf("Name : %c\nRoll : %d\n Marks : %f\n",st.Mname,st.Mroll,st.Mmarks);
+                  ^
+..\hw5.1.c: In function 'main':
+..\hw5.1.c:25:10: warning: format '%c' expects argument of type 'char *', but argument 2 has type 'char (*)[50]' [-Wformat=]
+  scanf("%c",&st.Mname);
+          ^
+gcc -o hw5.1.exe hw5.1.o 
+Info: Nothing to build for hw5.1
+22:45:43 **** Incremental Build of configuration Debug for project hw5.1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o hw5.1.o "..\\hw5.1.c" 
+..\hw5.1.c: In function 'main':
+..\hw5.1.c:25:10: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'char (*)[50]' [-Wformat=]
+  scanf("%s",&st.Mname);
+          ^
+gcc -o hw5.1.exe hw5.1.o 
+22:46:35 **** Incremental Build of configuration Debug for project hw5.1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o hw5.1.o "..\\hw5.1.c" 
+gcc -o hw5.1.exe hw5.1.o 
+Info: Nothing to build for hw5.1
+22:47:12 **** Incremental Build of configuration Debug for project hw5.1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o hw5.1.o "..\\hw5.1.c" 
+gcc -o hw5.1.exe hw5.1.o 
+Info: Nothing to build for hw5.1
