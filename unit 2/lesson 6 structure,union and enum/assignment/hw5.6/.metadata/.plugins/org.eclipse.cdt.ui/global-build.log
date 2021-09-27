@@ -1,0 +1,5 @@
+18:02:51 **** Rebuild of configuration Debug for project hw5.6 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o hw5.6.o "..\\hw5.6.c" 
+gcc -o hw5.6.exe hw5.6.o 
+Info: Nothing to build for hw5.6
