@@ -1,0 +1,27 @@
+20:05:59 **** Rebuild of configuration Debug for project hw5.5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o hw5.5.o "..\\hw5.5.c" 
+gcc -o hw5.5.exe hw5.5.o 
+Info: Nothing to build for hw5.5
+Info: Nothing to build for hw5.5
+Info: Nothing to build for hw5.5
+20:07:06 **** Incremental Build of configuration Debug for project hw5.5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o hw5.5.o "..\\hw5.5.c" 
+gcc -o hw5.5.exe hw5.5.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file hw5.5.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+20:08:08 **** Incremental Build of configuration Debug for project hw5.5 ****
+Info: Internal Builder is used for build
+gcc -o hw5.5.exe hw5.5.o 
+Info: Nothing to build for hw5.5
+20:08:43 **** Incremental Build of configuration Debug for project hw5.5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o hw5.5.o "..\\hw5.5.c" 
+gcc -o hw5.5.exe hw5.5.o 
+Info: Nothing to build for hw5.5
+20:09:09 **** Incremental Build of configuration Debug for project hw5.5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o hw5.5.o "..\\hw5.5.c" 
+gcc -o hw5.5.exe hw5.5.o 
+Info: Nothing to build for hw5.5
