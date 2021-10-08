@@ -1,0 +1,10 @@
+22:02:36 **** Rebuild of configuration Debug for project hw6.5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o hw6.5.o "..\\hw6.5.c" 
+gcc -o hw6.5.exe hw6.5.o 
+Info: Nothing to build for hw6.5
+22:02:57 **** Incremental Build of configuration Debug for project hw6.5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o hw6.5.o "..\\hw6.5.c" 
+gcc -o hw6.5.exe hw6.5.o 
+Info: Nothing to build for hw6.5
