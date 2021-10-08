@@ -1,0 +1,135 @@
+20:46:13 **** Rebuild of configuration Debug for project hw6.3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o hw6.3.o "..\\hw6.3.c" 
+..\hw6.3.c: In function 'main':
+..\hw6.3.c:19:11: warning: format '%c' expects argument of type 'char *', but argument 2 has type 'int' [-Wformat=]
+   scanf("%c",*p);
+           ^
+gcc -o hw6.3.exe hw6.3.o 
+20:47:04 **** Incremental Build of configuration Debug for project hw6.3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o hw6.3.o "..\\hw6.3.c" 
+..\hw6.3.c: In function 'main':
+..\hw6.3.c:19:11: warning: format '%c' expects argument of type 'char *', but argument 2 has type 'int' [-Wformat=]
+   scanf("%c",*p);
+           ^
+..\hw6.3.c:26:15: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+   printf("%c",(unsigned char*)*p);
+               ^
+..\hw6.3.c:26:12: warning: format '%c' expects argument of type 'int', but argument 2 has type 'unsigned char *' [-Wformat=]
+   printf("%c",(unsigned char*)*p);
+            ^
+gcc -o hw6.3.exe hw6.3.o 
+20:47:35 **** Incremental Build of configuration Debug for project hw6.3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o hw6.3.o "..\\hw6.3.c" 
+..\hw6.3.c: In function 'main':
+..\hw6.3.c:19:11: warning: format '%c' expects argument of type 'char *', but argument 2 has type 'int' [-Wformat=]
+   scanf("%c",*p);
+           ^
+gcc -o hw6.3.exe hw6.3.o 
+Info: Nothing to build for hw6.3
+20:49:28 **** Incremental Build of configuration Debug for project hw6.3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o hw6.3.o "..\\hw6.3.c" 
+..\hw6.3.c: In function 'main':
+..\hw6.3.c:18:11: warning: format '%c' expects argument of type 'char *', but argument 2 has type 'int' [-Wformat=]
+   scanf("%c",str[i]);
+           ^
+gcc -o hw6.3.exe hw6.3.o 
+Info: Nothing to build for hw6.3
+20:51:33 **** Incremental Build of configuration Debug for project hw6.3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o hw6.3.o "..\\hw6.3.c" 
+..\hw6.3.c: In function 'main':
+..\hw6.3.c:19:11: warning: format '%c' expects argument of type 'char *', but argument 2 has type 'int' [-Wformat=]
+   scanf("%c",str[i]);
+           ^
+..\hw6.3.c:11:8: warning: unused variable 'n' [-Wunused-variable]
+  int i,n;
+        ^
+..\hw6.3.c:16:4: warning: 'p' is used uninitialized in this function [-Wuninitialized]
+  *p=str[0];
+  ~~^~~~~~~
+gcc -o hw6.3.exe hw6.3.o 
+Info: Nothing to build for hw6.3
+20:52:58 **** Incremental Build of configuration Debug for project hw6.3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o hw6.3.o "..\\hw6.3.c" 
+..\hw6.3.c: In function 'main':
+..\hw6.3.c:19:11: warning: format '%c' expects argument of type 'char *', but argument 2 has type 'int' [-Wformat=]
+   scanf("%c",str[i]);
+           ^
+..\hw6.3.c:16:4: warning: 'p' is used uninitialized in this function [-Wuninitialized]
+  *p=str[0];
+  ~~^~~~~~~
+gcc -o hw6.3.exe hw6.3.o 
+20:53:29 **** Incremental Build of configuration Debug for project hw6.3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o hw6.3.o "..\\hw6.3.c" 
+..\hw6.3.c: In function 'main':
+..\hw6.3.c:16:4: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+  *p=&str[0];
+    ^
+..\hw6.3.c:19:11: warning: format '%c' expects argument of type 'char *', but argument 2 has type 'int' [-Wformat=]
+   scanf("%c",str[i]);
+           ^
+..\hw6.3.c:16:4: warning: 'p' is used uninitialized in this function [-Wuninitialized]
+  *p=&str[0];
+  ~~^~~~~~~~
+gcc -o hw6.3.exe hw6.3.o 
+20:53:40 **** Incremental Build of configuration Debug for project hw6.3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o hw6.3.o "..\\hw6.3.c" 
+..\hw6.3.c: In function 'main':
+..\hw6.3.c:19:11: warning: format '%c' expects argument of type 'char *', but argument 2 has type 'int' [-Wformat=]
+   scanf("%c",str[i]);
+           ^
+gcc -o hw6.3.exe hw6.3.o 
+20:53:51 **** Incremental Build of configuration Debug for project hw6.3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o hw6.3.o "..\\hw6.3.c" 
+gcc -o hw6.3.exe hw6.3.o 
+Info: Nothing to build for hw6.3
+20:55:09 **** Incremental Build of configuration Debug for project hw6.3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o hw6.3.o "..\\hw6.3.c" 
+gcc -o hw6.3.exe hw6.3.o 
+Info: Nothing to build for hw6.3
+20:57:31 **** Incremental Build of configuration Debug for project hw6.3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o hw6.3.o "..\\hw6.3.c" 
+gcc -o hw6.3.exe hw6.3.o 
+Info: Nothing to build for hw6.3
+20:58:06 **** Incremental Build of configuration Debug for project hw6.3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o hw6.3.o "..\\hw6.3.c" 
+..\hw6.3.c: In function 'main':
+..\hw6.3.c:24:15: error: invalid type argument of unary '*' (have 'int')
+   printf("%c",*p[i]);
+               ^~~~~
+20:58:12 **** Incremental Build of configuration Debug for project hw6.3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o hw6.3.o "..\\hw6.3.c" 
+gcc -o hw6.3.exe hw6.3.o 
+Info: Nothing to build for hw6.3
+20:58:59 **** Incremental Build of configuration Debug for project hw6.3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o hw6.3.o "..\\hw6.3.c" 
+gcc -o hw6.3.exe hw6.3.o 
+Info: Nothing to build for hw6.3
+21:09:07 **** Incremental Build of configuration Debug for project hw6.3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o hw6.3.o "..\\hw6.3.c" 
+gcc -o hw6.3.exe hw6.3.o 
+Info: Nothing to build for hw6.3
+21:11:48 **** Incremental Build of configuration Debug for project hw6.3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o hw6.3.o "..\\hw6.3.c" 
+gcc -o hw6.3.exe hw6.3.o 
+Info: Nothing to build for hw6.3
+21:12:46 **** Incremental Build of configuration Debug for project hw6.3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o hw6.3.o "..\\hw6.3.c" 
+gcc -o hw6.3.exe hw6.3.o 
+Info: Nothing to build for hw6.3

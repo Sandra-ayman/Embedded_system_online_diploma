@@ -1,0 +1,31 @@
+/*
+ * hw6.3.c
+ *
+ *  Created on: Oct 8, 2021
+ *      Author: 20109
+ */
+#include<stdio.h>
+#include<string.h>
+int main()
+{
+	int i;
+	char *p,str[50];
+	p=&str[0];
+	printf("Input a string : ");
+	fflush(stdin);
+	fflush(stdout);
+	for(i=0;i<strlen(str);i++)
+	{
+		scanf("%c",*p);
+		p++;
+	}
+	printf("Reverse of the string is : ");
+	p=&str[strlen(str)];
+	for(i=0;i<strlen(str);i++)
+	{
+		printf("%c",*p);
+		p++;
+	}
+	return 0;
+}
+
