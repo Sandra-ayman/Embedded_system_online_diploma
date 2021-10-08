@@ -1,0 +1,20 @@
+/*
+ * hw6.2.c
+ *
+ *  Created on: Oct 8, 2021
+ *      Author: 20109
+ */
+#include<stdio.h>
+int main()
+{
+	char i=65;
+	char *p;
+	p=&i;
+	printf("The Alphabets are : \n");
+	for(p=65;p<=90;p++)
+	{
+		printf("%c ",*p);
+	}
+	return 0;
+}
+
