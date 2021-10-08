@@ -1,0 +1,65 @@
+17:33:09 **** Rebuild of configuration Debug for project hw6.1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o hw6.1.o "..\\hw6.1.c" 
+..\hw6.1.c: In function 'main':
+..\hw6.1.c:11:26: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'int *' [-Wformat=]
+  printf("Address of m : %x\n",&m);
+                          ^
+..\hw6.1.c:16:35: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'int *' [-Wformat=]
+  printf("Address of pointer ab : %x\n",ab);
+                                   ^
+..\hw6.1.c:21:35: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'int *' [-Wformat=]
+  printf("Address of pointer ab : %x\n",ab);
+                                   ^
+..\hw6.1.c:26:26: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'int *' [-Wformat=]
+  printf("Address of m : %x\n",&m);
+                          ^
+gcc -o hw6.1.exe hw6.1.o 
+Info: Nothing to build for hw6.1
+17:34:25 **** Incremental Build of configuration Debug for project hw6.1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o hw6.1.o "..\\hw6.1.c" 
+..\hw6.1.c: In function 'main':
+..\hw6.1.c:11:26: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'int *' [-Wformat=]
+  printf("Address of m : %x\n",&m);
+                          ^
+..\hw6.1.c:15:19: warning: pointer targets in initialization differ in signedness [-Wpointer-sign]
+  unsigned int *ab=&m;
+                   ^
+..\hw6.1.c:16:35: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'unsigned int *' [-Wformat=]
+  printf("Address of pointer ab : %x\n",ab);
+                                   ^
+..\hw6.1.c:21:35: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'unsigned int *' [-Wformat=]
+  printf("Address of pointer ab : %x\n",ab);
+                                   ^
+..\hw6.1.c:26:26: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'int *' [-Wformat=]
+  printf("Address of m : %x\n",&m);
+                          ^
+gcc -o hw6.1.exe hw6.1.o 
+17:35:06 **** Incremental Build of configuration Debug for project hw6.1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o hw6.1.o "..\\hw6.1.c" 
+..\hw6.1.c: In function 'main':
+..\hw6.1.c:11:26: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'int *' [-Wformat=]
+  printf("Address of m : %x\n",&m);
+                          ^
+..\hw6.1.c:21:35: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'int *' [-Wformat=]
+  printf("Address of pointer ab : %x\n",ab);
+                                   ^
+..\hw6.1.c:26:26: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'int *' [-Wformat=]
+  printf("Address of m : %x\n",&m);
+                          ^
+gcc -o hw6.1.exe hw6.1.o 
+17:35:52 **** Incremental Build of configuration Debug for project hw6.1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o hw6.1.o "..\\hw6.1.c" 
+..\hw6.1.c: In function 'main':
+..\hw6.1.c:11:26: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'int *' [-Wformat=]
+  printf("Address of m : %x\n",&m);
+                          ^
+gcc -o hw6.1.exe hw6.1.o 
+17:36:13 **** Incremental Build of configuration Debug for project hw6.1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o hw6.1.o "..\\hw6.1.c" 
+gcc -o hw6.1.exe hw6.1.o 
+Info: Nothing to build for hw6.1
