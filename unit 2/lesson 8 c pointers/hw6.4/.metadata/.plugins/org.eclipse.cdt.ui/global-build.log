@@ -1,0 +1,23 @@
+21:53:16 **** Rebuild of configuration Debug for project hw6.4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o hw6.4.o "..\\hw6.4.c" 
+..\hw6.4.c: In function 'main':
+..\hw6.4.c:27:6: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+  arrp=arr[n-1];
+      ^
+gcc -o hw6.4.exe hw6.4.o 
+21:53:44 **** Incremental Build of configuration Debug for project hw6.4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o hw6.4.o "..\\hw6.4.c" 
+gcc -o hw6.4.exe hw6.4.o 
+Info: Nothing to build for hw6.4
+21:54:09 **** Incremental Build of configuration Debug for project hw6.4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o hw6.4.o "..\\hw6.4.c" 
+gcc -o hw6.4.exe hw6.4.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file hw6.4.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+21:55:00 **** Incremental Build of configuration Debug for project hw6.4 ****
+Info: Internal Builder is used for build
+gcc -o hw6.4.exe hw6.4.o 
+Info: Nothing to build for hw6.4
