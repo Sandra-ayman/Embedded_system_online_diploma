@@ -1,0 +1,130 @@
+/*
+ * student.c
+ *
+ *  Created on: Oct 10, 2022
+ *      Author: 20109
+ */
+#include "student.h"
+//pointer to the first student
+struct SStudent* PFirstStudent=NULL;
+//Linked List APIs
+//Add a New Student Record
+void Add_Student()
+{
+	struct SStudent* PNewStudent;
+	struct SStudent* PLastStudent;
+	char lastName[20];
+	//check the list is empty ?
+	if(PFirstStudent == NULL)
+	{
+		//create a new record
+		PNewStudent =(struct SStudent*)malloc(sizeof(struct SStudent));
+		//Assign the first student to it
+		PFirstStudent=PNewStudent;
+	}
+	else
+	{
+		//navigate until reach to the last record
+		PLastStudent=PFirstStudent;
+		while(PLastStudent->PNextStudent)
+		{
+			PLastStudent=PLastStudent->PNextStudent;
+		}
+		//create a new record
+		PNewStudent =(struct SStudent*)malloc(sizeof(struct SStudent));
+		PLastStudent->PNextStudent=PNewStudent;
+	}
+	//fill the record
+	printf("Enter the ID:");
+	fflush(stdin);
+	fflush(stdout);
+	scanf("%d",&PNewStudent->student.ID);
+	printf("Enter student First Name:");
+	fflush(stdin);
+	fflush(stdout);
+	scanf("%s",&PNewStudent->student.Full_name);
+	printf("Enter student Last Name:");
+	fflush(stdin);
+	fflush(stdout);
+	scanf("%s",&lastName);
+	strcat(PNewStudent->student.Full_name," ");
+	strcat(PNewStudent->student.Full_name,lastName);
+	printf("Enter the Height of the student:");
+	fflush(stdin);
+	fflush(stdout);
+	scanf("%f",&PNewStudent->student.height);
+	//Assign the pointer of the next record to null
+	PNewStudent->PNextStudent = NULL;
+}
+//Delete a selected student
+int Delete_Student()
+{
+	int selected_id;
+	//get the selected ID to be deleted
+	printf("Enter Student ID to be selected: ");
+	fflush(stdin);
+	fflush(stdout);
+	scanf("%d",&selected_id);
+	//check the list has records
+	if(PFirstStudent)
+	{
+		struct SStudent* PPreviousStudent=NULL;
+		struct SStudent* PSelectedStudent=PFirstStudent;
+		//loop until found the selected ID
+		while(PSelectedStudent)
+		{
+			//compare the selected id with records
+			if(PSelectedStudent->student.ID==selected_id)
+			{
+				if(PPreviousStudent)//selected id is not the first id
+				{
+					//check the next pointer of selected ID is NULL
+					if(PSelectedStudent->PNextStudent==NULL)
+					{
+						PPreviousStudent->PNextStudent=NULL;
+					}
+					else
+					{
+						PPreviousStudent->PNextStudent=PSelectedStudent->PNextStudent;
+					}
+				}
+				else //student id is the first id
+				{
+					PFirstStudent=PSelectedStudent->PNextStudent;
+				}
+				free(PSelectedStudent);
+				return 1;//find it :)
+			}
+			//store previous record pointer
+			PPreviousStudent = PSelectedStudent;
+			PSelectedStudent=PSelectedStudent->PNextStudent;
+		}
+	}
+	printf("\n can not find the ID ");
+	return 0;//can not find it
+}
+//view all students in the list
+void View_Student()
+{
+	struct SStudent* PCurrentStudent=PFirstStudent;
+	int count=0;
+	//check the list is empty
+	if(PFirstStudent == NULL)
+	{
+		printf("\n The list is Empty!");
+	}
+	else
+	{
+		//loop until the end of list
+		while(PCurrentStudent)
+		{
+			printf("\n Record number %d: ",count+1);
+			printf("\n\t Student ID: %d",PCurrentStudent->student.ID);
+			printf("\n\t Student Full Name: %s",PCurrentStudent->student.Full_name);
+			printf("\n\t Student Height: %f",PCurrentStudent->student.height);
+			printf("\n-------------------------------------------------\n");
+			PCurrentStudent=PCurrentStudent->PNextStudent;
+			count++;
+		}
+	}
+}

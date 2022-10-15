@@ -1,0 +1,38 @@
+/*
+ * student.h
+ *
+ *  Created on: Oct 10, 2022
+ *      Author: 20109
+ */
+
+#ifndef STUDENT_H_
+#define STUDENT_H_
+//libraries
+#include "stdio.h"
+#include "conio.h"
+#include "stdlib.h"
+#include "string.h"
+
+//effective data
+struct SStudent_Data
+{
+	int ID;
+	char First_name[20];
+	char Last_name[20];
+	float height;
+};
+
+//linked list for students
+struct SStudent
+{
+	struct SStudent_Data student;
+	struct SStudent* PNextStudent;
+};
+//pointer to the first student
+struct SStudent* PFirstStudent=NULL;
+
+//Linked List APIs
+//Add a New Student Record
+void Add_Student();
+
+#endif /* STUDENT_H_ */

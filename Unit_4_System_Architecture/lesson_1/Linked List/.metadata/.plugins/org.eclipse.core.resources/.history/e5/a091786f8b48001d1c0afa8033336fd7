@@ -1,0 +1,73 @@
+/*
+ * main.c
+ *
+ *  Created on: Oct 10, 2022
+ *      Author: 20109
+ */
+#include "student.h"
+void Add_Student()
+{
+	struct SStudent* PNewStudent;
+	struct SStudent* PLastStudent;
+	//check the list is empty ?
+	if(PFirstStudent == NULL)
+	{
+		//create a new record
+		PNewStudent =(struct SStudent*)malloc(sizeof(struct SStudent));
+		//Assign the first student to it
+		PFirstStudent=PNewStudent;
+	}
+	else
+	{
+		//navigate until reach to the last record
+		PLastStudent=PFirstStudent;
+		while(PLastStudent->PNextStudent)
+		{
+			PLastStudent=PLastStudent->PNextStudent;
+		}
+		//create a new record
+		PNewStudent =(struct SStudent*)malloc(sizeof(struct SStudent));
+		PLastStudent->PNextStudent=PNewStudent;
+	}
+	//fill the record
+	printf("Enter the ID:");
+	fflush(stdin);
+	fflush(stdout);
+	scanf("%d",&PNewStudent->student.ID);
+	printf("Enter student First Name:");
+	fflush(stdin);
+	fflush(stdout);
+	scanf("%s",&PNewStudent->student.First_name);
+	printf("Enter student Last Name:");
+	fflush(stdin);
+	fflush(stdout);
+	scanf("%s",&PNewStudent->student.Last_name);
+	printf("Enter the Height of the student:");
+	fflush(stdin);
+	fflush(stdout);
+	scanf("%.2f",&PNewStudent->student.height);
+	//Assign the pointer of the next record to null
+	PNewStudent->PNextStudent = NULL;
+}
+int main()
+{
+	char choice[40];
+
+	printf("Choose one of the following list:\n");
+	printf("1-Add a student Record\n");
+	printf("Enter your choice: ");
+	fflush(stdin);
+	fflush(stdout);
+	scanf("%s",choice);
+	switch(atoi(choice))
+	{
+	case 1:
+		Add_Student();
+		break;
+	default:
+		printf("wrong choice!");
+		break;
+	}
+	return 0;
+}
+

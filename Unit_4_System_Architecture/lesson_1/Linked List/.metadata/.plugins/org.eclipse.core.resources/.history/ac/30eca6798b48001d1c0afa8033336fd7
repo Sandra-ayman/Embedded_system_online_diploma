@@ -1,0 +1,30 @@
+/*
+ * main.c
+ *
+ *  Created on: Oct 10, 2022
+ *      Author: 20109
+ */
+#include "student.h"
+
+int main()
+{
+	char choice[40];
+
+	printf("Choose one of the following list:\n");
+	printf("1-Add a student Record\n");
+	printf("Enter your choice: ");
+	fflush(stdin);
+	fflush(stdout);
+	scanf("%s",choice);
+	switch(atoi(choice))
+	{
+	case 1:
+		Add_Student();
+		break;
+	default:
+		printf("wrong choice!");
+		break;
+	}
+	return 0;
+}
+

@@ -1,0 +1,14 @@
+/*
+ * main.c
+ *
+ *  Created on: Oct 10, 2022
+ *      Author: 20109
+ */
+#include "student.h"
+
+int main()
+{
+
+	return 0;
+}
+
