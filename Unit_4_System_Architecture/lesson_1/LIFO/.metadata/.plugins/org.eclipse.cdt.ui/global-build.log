@@ -1,0 +1,98 @@
+13:45:23 **** Rebuild of configuration Debug for project LIFO_Buffer ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:13:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+..\main.c: In function 'main':
+..\main.c:41:31: warning: pointer targets in passing argument 2 of 'LIFO_Get_Item' differ in signedness [-Wpointer-sign]
+   if(LIFO_Get_Item(&Uart_lifo,&temp)==Lifo_no_error)
+                               ^
+In file included from ..\main.c:7:0:
+..\LIFO.h:32:13: note: expected 'unsigned int *' but argument is of type 'int *'
+ LIFO_Status LIFO_Get_Item (LIFO_Buf_t* lifo_buf,unsigned int* item);
+             ^~~~~~~~~~~~~
+..\main.c:49:30: warning: passing argument 2 of 'LIFO_Add_Item' makes integer from pointer without a cast [-Wint-conversion]
+   if(LIFO_Add_Item(&I2c_lifo,&temp)==Lifo_no_error)
+                              ^
+In file included from ..\main.c:7:0:
+..\LIFO.h:31:13: note: expected 'unsigned int' but argument is of type 'int *'
+ LIFO_Status LIFO_Add_Item (LIFO_Buf_t* lifo_buf,unsigned int item);
+             ^~~~~~~~~~~~~
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o LIFO.o "..\\LIFO.c" 
+gcc -o LIFO_Buffer.exe LIFO.o main.o 
+Info: Nothing to build for LIFO_Buffer
+13:46:09 **** Incremental Build of configuration Debug for project LIFO_Buffer ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:13:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+..\main.c: In function 'main':
+..\main.c:41:31: warning: pointer targets in passing argument 2 of 'LIFO_Get_Item' differ in signedness [-Wpointer-sign]
+   if(LIFO_Get_Item(&Uart_lifo,&temp)==Lifo_no_error)
+                               ^
+In file included from ..\main.c:7:0:
+..\LIFO.h:32:13: note: expected 'unsigned int *' but argument is of type 'int *'
+ LIFO_Status LIFO_Get_Item (LIFO_Buf_t* lifo_buf,unsigned int* item);
+             ^~~~~~~~~~~~~
+..\main.c:49:30: warning: passing argument 2 of 'LIFO_Add_Item' makes integer from pointer without a cast [-Wint-conversion]
+   if(LIFO_Add_Item(&I2c_lifo,&temp)==Lifo_no_error)
+                              ^
+In file included from ..\main.c:7:0:
+..\LIFO.h:31:13: note: expected 'unsigned int' but argument is of type 'int *'
+ LIFO_Status LIFO_Add_Item (LIFO_Buf_t* lifo_buf,unsigned int item);
+             ^~~~~~~~~~~~~
+gcc -o LIFO_Buffer.exe LIFO.o main.o 
+Info: Nothing to build for LIFO_Buffer
+13:47:03 **** Incremental Build of configuration Debug for project LIFO_Buffer ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:13:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+..\main.c: In function 'main':
+..\main.c:41:31: warning: pointer targets in passing argument 2 of 'LIFO_Get_Item' differ in signedness [-Wpointer-sign]
+   if(LIFO_Get_Item(&Uart_lifo,&temp)==Lifo_no_error)
+                               ^
+In file included from ..\main.c:7:0:
+..\LIFO.h:32:13: note: expected 'unsigned int *' but argument is of type 'int *'
+ LIFO_Status LIFO_Get_Item (LIFO_Buf_t* lifo_buf,unsigned int* item);
+             ^~~~~~~~~~~~~
+..\main.c:49:30: warning: pointer targets in passing argument 2 of 'LIFO_Get_Item' differ in signedness [-Wpointer-sign]
+   if(LIFO_Get_Item(&I2c_lifo,&temp)==Lifo_no_error)
+                              ^
+In file included from ..\main.c:7:0:
+..\LIFO.h:32:13: note: expected 'unsigned int *' but argument is of type 'int *'
+ LIFO_Status LIFO_Get_Item (LIFO_Buf_t* lifo_buf,unsigned int* item);
+             ^~~~~~~~~~~~~
+gcc -o LIFO_Buffer.exe LIFO.o main.o 
+13:56:37 **** Incremental Build of configuration Debug for project LIFO_Buffer ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:13:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o LIFO.o "..\\LIFO.c" 
+gcc -o LIFO_Buffer.exe LIFO.o main.o 
+13:57:21 **** Incremental Build of configuration Debug for project LIFO_Buffer ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o LIFO_Buffer.exe LIFO.o main.o 
+16:33:52 **** Incremental Build of configuration Debug for project LIFO_Buffer ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o LIFO.o "..\\LIFO.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o LIFO_Buffer.exe LIFO.o main.o 
+Info: Nothing to build for LIFO_Buffer
+14:43:53 **** Rebuild of configuration Debug for project LIFO_Buffer ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o LIFO.o "..\\LIFO.c" 
+gcc -o LIFO_Buffer.exe LIFO.o main.o 
+Info: Nothing to build for LIFO_Buffer
+14:45:27 **** Incremental Build of configuration Debug for project LIFO_Buffer ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o LIFO_Buffer.exe LIFO.o main.o 
+Info: Nothing to build for LIFO_Buffer
